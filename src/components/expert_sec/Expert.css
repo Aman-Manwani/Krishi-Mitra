@@ -1,0 +1,25 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experts_head{
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+
+.expert_subhead{
+    font-weight: 600;
+    font-size: 32px;
+    color: gray
+}
+
+.upper_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}

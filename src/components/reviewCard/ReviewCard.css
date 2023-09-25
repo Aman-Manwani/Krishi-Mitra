@@ -1,0 +1,41 @@
+.review_detail{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.review_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.farmer_name{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.farmer_stars{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.farmer_review{
+    font-size: 25px;
+    color: gray;
+}
+
+.review_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    background-color: rgb(243, 240, 240);
+    padding: 0.7rem;
+    border-radius: 15px;
+}
+
+.farmer_place{
+    font-weight: 500;
+    color: gray;
+}

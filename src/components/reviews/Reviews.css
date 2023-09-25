@@ -1,0 +1,23 @@
+.farmer_reviews{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 230px;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.review_subhead{
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.review_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    
+    gap: 2rem;
+}

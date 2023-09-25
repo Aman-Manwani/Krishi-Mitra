@@ -1,0 +1,30 @@
+.register_btn{
+    padding: 10px 40px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.register_btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 2px solid black;
+}
+
+.logo{
+
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    object-fit: contain;
+}
